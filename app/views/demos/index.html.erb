@@ -1,0 +1,4 @@
+<h1>Click the button below to do something that takes awhile!</h1>
+<%= form_with url: '/create', method: 'POST', local: true do %>
+  <%= submit_tag('Do something!') %>
+<% end %>
