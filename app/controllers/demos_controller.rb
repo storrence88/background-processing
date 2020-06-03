@@ -13,6 +13,6 @@ class DemosController < ApplicationController
   private
 
   def something
-    sleep 10
+    sleep 30
   end
 end
