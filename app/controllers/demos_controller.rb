@@ -3,7 +3,8 @@ class DemosController < ApplicationController
   end
 
   def create
-    something
+    # something
+    SomethingWorker.perform_async(Date.current)
     render :show
   end
 
