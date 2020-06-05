@@ -1,0 +1,12 @@
+---
+:verbose: true
+:concurrency: 2
+:queues:
+  - [default, 2]
+  - mailers
+
+staging:
+  :concurrency: 5
+
+production:
+  :concurrency: 5
